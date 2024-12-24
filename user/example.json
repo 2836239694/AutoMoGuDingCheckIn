@@ -1,18 +1,18 @@
 {
   "config": {
     "user": {
-      "phone": "15540990513",
-      "password": "JX1312935632jing"
+      "phone": "工学云手机号",
+      "password": "工学云密码"
     },
     "clockIn": {
       "mode": "daily",
       "location": {
-        "address": "内蒙古自治区 · 呼和浩特市 · 回民区 · 宏誉汽车服务有限公司",
-        "latitude": "40.845103",
-        "longitude": "111.601902",
-        "province": "内蒙古自治区",
-        "city": "呼和浩特市",
-        "area": "回民区"
+        "address": "四川省 · 成都市 · 高新区 · 在科创十一街附近",
+        "latitude": "30.559922",
+        "longitude": "104.093023",
+        "province": "四川省",
+        "city": "成都市",
+        "area": "高新区"
       },
       "imageCount": 0,
       "description": [
@@ -51,43 +51,37 @@
     "pushNotifications": [
       {
         "type": "Server",
-        "enabled": false,
+        "enabled": true,
         "sendKey": "your_key"
       },
       {
         "type": "PushPlus",
-        "enabled": false,
+        "enabled": true,
         "token": "your_token"
       },
       {
         "type": "AnPush",
-        "enabled": false,
+        "enabled": true,
         "token": "your_token",
         "channel": "通道ID,多个用英文逗号隔开",
         "to": "根据官方文档获取"
       },
       {
         "type": "WxPusher",
-        "enabled": false,
+        "enabled": true,
         "spt": "your_spt"
       },
       {
         "type": "SMTP",
         "enabled": true,
-        "host": "smtp.qq.com",
+        "host": "smtp服务地址",
         "port": 465,
-        "username": "1943766471@qq.com",
-        "password": "gwjebjdwjbegbbcc",
-        "from": "打卡程序",
-        "to": "1312935632@qq.com"
+        "username": "发件人邮箱",
+        "password": "smtp密码",
+        "from": "发件人名称",
+        "to": "收件人邮箱"
       }
     ],
-    "device":  {
-        "brand": "TA J20",
-        "systemVersion": 17,
-        "Platform": "Android",
-        "isPhysicalDevice": true,
-        "incremental": "K23V10A"
-    }
+    "device": "{brand: TA J20, systemVersion: 17, Platform: Android, isPhysicalDevice: true, incremental: K23V10A}"
   }
 }
