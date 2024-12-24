@@ -82,6 +82,12 @@
         "to": "1312935632@qq.com"
       }
     ],
-    "device": "{brand: TA J20, systemVersion: 17, Platform: Android, isPhysicalDevice: true, incremental: K23V10A}"
+    "device":  {
+        "brand": "TA J20",
+        "systemVersion": 17,
+        "Platform": "Android",
+        "isPhysicalDevice": true,
+        "incremental": "K23V10A"
+    }
   }
 }
