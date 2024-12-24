@@ -33,7 +33,7 @@
           "imageCount": 0
         },
         "weekly": {
-          "enabled": true,
+          "enabled": false,
           "imageCount": 0,
           "submitTime": 4
         },
